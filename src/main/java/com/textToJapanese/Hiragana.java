@@ -146,10 +146,10 @@ enum Hiragana
         HIRAGANA_TRIGGERS = triggerBuilder.build();
     }
 
-    Hiragana(String triggerPhrase, String codepoint) {
-        this.triggerPhrase = triggerPhrase;
-        this.codepoint = codepoint;
-    }
+//    Hiragana(String triggerPhrase, String codepoint) {
+//        this.triggerPhrase = triggerPhrase;
+//        this.codepoint = codepoint;
+//    }
 
     BufferedImage loadImage()
     {
